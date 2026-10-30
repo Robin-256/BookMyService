@@ -1,5 +1,4 @@
 # BookMyService
--> Find. Book. Relax!
 🚀 **BookMyService** is a web-based local services marketplace that connects customers with trusted professionals in their city. 🏙️
 
 🔧 Find skilled electricians, 🚰 plumbers, 📚 tutors, 🧹 cleaners, and many more service providers in one place!
