@@ -1,0 +1,144 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f4f8;
+    text-align: center;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: #2563eb;
+    color: white;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 15px;
+}
+
+/* Main Signup Container */
+main {
+    background-color: white;
+    width: 420px;
+    max-width: 90%;
+    margin: 35px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+main h2 {
+    color: #1e293b;
+    margin-bottom: 12px;
+    font-size: 26px;
+}
+
+main > p {
+    color: #64748b;
+    margin-bottom: 22px;
+    line-height: 1.5;
+}
+
+/* Form */
+form {
+    text-align: left;
+}
+
+label {
+    color: #334155;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input:not([type="checkbox"]),
+select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+}
+
+input:focus,
+select:focus {
+    border-color: #2563eb;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+    cursor: pointer;
+    accent-color: #2563eb;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 13px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Links */
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #1e293b;
+    color: white;
+    padding: 20px;
+}
+
+footer p {
+    margin: 7px;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+
+    main {
+        padding: 22px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    main h2 {
+        font-size: 22px;
+    }
+}
+
