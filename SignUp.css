@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #f0f4f8;
+    background-color: #d2ecec;
     text-align: center;
     min-height: 100vh;
 }
@@ -36,7 +36,7 @@ main {
     margin: 35px auto;
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 14px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* Heading */
