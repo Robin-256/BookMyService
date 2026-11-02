@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyService | Sign Up</title>
+
+    <link rel="stylesheet" href="SignUp.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🏠 BookMyService</h1>
+        <p>🔍 Find. 📅 Book. 🧒🏻 Relax!</p>
+    </header>
+
+    <!-- Signup Section -->
+    <main>
+
+        <h2>Create Your Account</h2>
+
+        <p>Join BookMyService and find trusted professionals near you.</p>
+
+        <form action="#" method="POST">
+
+            <!-- Full Name -->
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname"
+                placeholder="Enter your full name" required>
+            <br><br>
+
+            <!-- Email -->
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email"
+                placeholder="Enter your email" required>
+            <br><br>
+
+            <!-- Mobile Number -->
+            <label for="mobile">Mobile Number:</label><br>
+            <input type="tel" id="mobile" name="mobile"
+                placeholder="Enter your mobile number"
+                pattern="[0-9]{10}" required>
+            <br><br>
+
+            <!-- Password -->
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"
+                placeholder="Create a password" required>
+            <br><br>
+
+            <!-- Confirm Password -->
+            <label for="confirm-password">Confirm Password:</label><br>
+            <input type="password" id="confirm-password"
+                name="confirm-password"
+                placeholder="Confirm your password" required>
+            <br><br>
+
+            <!-- Account Type -->
+            <label for="role">Register As:</label><br>
+            <select id="role" name="role" required>
+                <option value="">Select Account Type</option>
+                <option value="customer">Customer</option>
+                <option value="provider">Service Provider</option>
+            </select>
+            <br><br>
+
+            <!-- Terms and Conditions -->
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">
+                I agree to the Terms & Conditions.
+            </label>
+            <br><br>
+
+            <!-- Signup Button -->
+            <button type="submit">Create Account</button>
+
+        </form>
+
+        <p>
+            Already have an account?
+            <a href="login.html">Login Here</a>
+        </p>
+
+        <p>
+            <a href="index.html">← Back to Home</a>
+        </p>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 BookMyService. All Rights Reserved.</p>
+        <p>🔍 Find. 📅 Book. 👦🏻 Relax!</p>
+    </footer>
+
+</body>
+</html>
+
